@@ -2,7 +2,9 @@
 Commonly used git commands
 
 * Get help on a command<br/>
-    git <COMMAND> --help
+~~~
+git <COMMAND> --help
+~~~
 * Create a repository in the current directory<br/>
     git init
 * Create a repository from an existing one<br/>

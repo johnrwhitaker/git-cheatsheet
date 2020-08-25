@@ -5,6 +5,11 @@ Commonly used git commands
 ~~~
 git <COMMAND> --help
 ~~~
+* Global configuration
+~~~
+git config --global user.name "your name"
+git config --global user.email "you@gmail.com"
+~~~
 * Create a repository in the current directory<br/>
 ~~~
 git init
@@ -16,6 +21,30 @@ git clone git://host.org/project.git
 * Changes made in working directory<br/>
 ~~~
 git status
+~~~
+* Add a file to the staging area
+~~~
+git add [FILENAME]
+~~~
+* Add all files with changes to the staging area
+~~~
+git add .
+~~~
+* Remove file from directory
+~~~
+git rm [FILENAME]
+~~~
+* Discard changes in working directory
+~~~
+git checkout -- [FILENAME]
+~~~
+* Revert repository
+~~~
+git reset [FILENAME]
+~~~
+* List all local branches
+~~~
+git branch [-a]
 ~~~
 * Changes made to tracked files<br/>
 ~~~
